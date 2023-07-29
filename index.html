@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solution</title>
+     <!-- daisy ui linked -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+     <!-- google font  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;700;800&display=swap" rel="stylesheet">
+     <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- customize tailwind -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'box-shadow': ' 0px 8px 60px 0px rgba(0, 0, 0, 0.05)',
+                'text-color' :'rgba(18, 18, 18, 0.60);',
+                'dark-color':'#121212',
+
+              }
+            }
+          }
+        }
+      </script>
+      <!-- customize css -->
+      <style>
+        .font-Garamond{
+            font-family: 'EB Garamond', serif;
+        }
+      </style>
+
+</head>
+<body class="font-Garamond">
+    <header class="container mx-auto mt-2 ">
+      <div class="navbar bg-base-100 ">
+        <div class="navbar-start">
+          <img class="" src="images/logo2.png">
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-[#707070] text-sm font-normal gap-7">
+            <li>Home</li>
+           <span class=" flex  gap-2">
+            <li>Services</li>
+            <i class="fa-solid fa-chevron-right mt-2"></i>
+           </span> 
+           <span class=" flex  gap-2">
+            <li>Cases</li>
+            <i class="fa-solid fa-chevron-right mt-2"></i>
+           </span> 
+           <span class=" flex  gap-2">
+            <li>Blog</li>
+            <i class="fa-solid fa-chevron-right mt-2"></i>
+           </span> 
+           <span class=" flex  gap-2">
+            <li>Contact Us</li>
+            <i class="fa-solid fa-chevron-right mt-2"></i>
+           </span> 
+            
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-[#B68C5A] text-white py-4 px-5 text-xs font-semibold">Free Consultation</a>
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+    
+</body>
+</html>
